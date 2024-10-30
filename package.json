@@ -1,0 +1,11 @@
+{
+  "name": "c4d-wp-popup",
+  "version": "1.0.0",
+  "description": "=== C4D WP Popup === Contributors: Coffee4dev Donate link: http://coffee4dev.com Tags: 1.0.0 Requires at least: 3.3 Tested up to: 3.5.1 Stable tag: 1.0.0 License: GPLv2 or later License URI: http://www.gnu.org/licenses/gpl-2.0.html",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

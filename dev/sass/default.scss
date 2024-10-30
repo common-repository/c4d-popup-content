@@ -1,0 +1,33 @@
+.c4d-wppu {
+	&__wrapper {
+		display: none;
+	}
+	&__site {
+		&_inner {
+			width: 770px;
+			min-height: 440px;
+			background: #fff;
+		}
+	}
+	&__dont-show {
+		.checkbox {
+			position: relative;
+			&:after {
+				position: absolute;
+				top: 1px;
+				left: 1px;
+				content: '';
+				display: block;
+				width: 10px;
+				height: 10px;
+				background: green;
+				opacity: 0;
+			}
+		}
+		&.active {
+			.checkbox:after {
+				opacity: 1;
+			}
+		}
+	}
+}
